@@ -19,6 +19,24 @@ body {
   background: #fff;
 }
 
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 0px 0px 0;
+  width: 100%;
+}
+.my-gallery figcaption {
+  display: none;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
