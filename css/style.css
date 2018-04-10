@@ -1390,7 +1390,10 @@ form label {
   background: rgba(255, 255, 255, 0.3);
 }
 #fh5co-started .btn {
-  height: 44px;
+  height: 54px;
+  position: static;
+  text-align: center;
+  vertical-align: middle;
   border: none !important;
   background: #F14E95;
   color: #fff;
@@ -1399,7 +1402,6 @@ form label {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
-  margin-bottom:5px;
 }
 #fh5co-started .form-inline .form-group {
   width: 100% !important;
@@ -1416,15 +1418,26 @@ form label {
 }
 
 .alert-box {
-  padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    border-radius: 4px;  
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px;
+  text-align: center;
 }
 
 .success {
-    color: #3c763d;
-    background-color: #dff0d8;
+    color: #F14E95;
+    font-weight: 400;
+    background-color: #f2cfde;
     border-color: #d6e9c6;
     display: none;
 }
