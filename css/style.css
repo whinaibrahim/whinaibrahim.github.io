@@ -878,6 +878,27 @@ form label {
     font-size: 30px;
   }
 }
+@media screen and (max-width: 1500px) {
+  #fh5co-header {
+    background-image: url(../images/01.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+  }
+}
+@media screen and (max-width: 768px) {
+  #fh5co-header {
+    background-image: url(../images/02.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+  }
+}
+@media screen and (max-width: 400px) {
+  #fh5co-header {
+    background-image: url(../images/03.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+  }
+}
 #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h2,
 .fh5co-cover .display-tc h2 {
@@ -1602,6 +1623,18 @@ form label {
 .fh5co-nav-toggle:hover, .fh5co-nav-toggle:focus, .fh5co-nav-toggle:active {
   outline: none;
   border-bottom: none !important;
+}
+.fh5co-nav-toggle a {
+  font-size: 14px;
+  padding: 30px 10px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-nav-toggle a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
+  color: white;
 }
 .fh5co-nav-toggle i {
   position: relative;
